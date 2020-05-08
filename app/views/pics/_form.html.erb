@@ -6,7 +6,7 @@
             prevented this picture from saving
           </h2>
           <ul>
-            <% pic.errors.full_message.each do |msg| %>
+            <% pic.errors.full_messages.each do |msg| %>
                 <li><%= msg %></li>
             <% end %>
           </ul>
