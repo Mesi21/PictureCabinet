@@ -10,11 +10,17 @@
       </div>
       <div class="panel-footer">
         <div class="row">
-          <div class="col-md-6">
-            <p class="user">Picture by: <%= @pic.user.email %></p>
+          <div class="col-md-4">
+            <p class="user"><small>Picture by:</small> <br> <%= @pic.user.email %></p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-8">
             <div class="btn-group pull-right">
+              <%= link_to like_pic_path(@pic), method: :put, class: "btn btn-default", id: "default" do %>
+                <span class="glyphicon glyphicon-thumbs-up" id="upvote">
+                  <%= @pic.get_upvotes.size %>
+                </span>
+              <% end %>
+
               <% if user_signed_in? %>
                 <%= link_to "Back", root_path, class: "btn btn-success", id: "back"  %>
                 <%= link_to "Edit", edit_pic_path, class:"btn btn-danger", id: "edit" %>

@@ -29,9 +29,15 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-#back, #edit, #del {
-	margin-right: 10px !important;
+#back, #edit, #del, #default {
+	margin: 0px 5px !important;
 	border-radius: 10px;
+}
+
+#upvote {
+	height: 20px;
+	width: 30px;
+	margin-right: 5px !important;
 }
 
 nav {
