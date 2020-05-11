@@ -18,7 +18,7 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- body {
+body {
 	background: #E9E9E9;
 }
 
@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #529ECC;
 	font-weight: bold;
 	text-align: center;
+}
+
+.panel-body {
+	background-color: #fff;
 }
 
 #back, #edit, #del, #default {
