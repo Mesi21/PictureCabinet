@@ -140,3 +140,9 @@ nav {
 textarea {
 	min-height: 250px;
 }
+
+#check {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
