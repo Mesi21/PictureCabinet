@@ -2,7 +2,7 @@
 
 # Picture Cabinet
 
-This is just a short replica of Instagram as part of an online course.
+This project is a short replica of Instagram as part of an online course.
 
 ## Contribution guide
 
